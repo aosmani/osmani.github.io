@@ -40,7 +40,7 @@ h3.home-title {
 }
 
 hr.ornamental { 
-	background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/ornamental-sm.png) center no-repeat; 
+	background:url(Photo/ornamental-sm.png) center no-repeat; 
 	height:21px; 
 	width:100%; 
 	border:none; 
@@ -48,7 +48,7 @@ hr.ornamental {
 	padding:0 
 }
 hr.ornamental { 
-	background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/ornamental-sm.png) center no-repeat; 
+	background:url(Photo/ornamental-sm.png) center no-repeat; 
 	background-size:960px 21px; 
 	height:21px; 
 	width:100%; 
@@ -128,7 +128,7 @@ hr.ornamental {
    ========================================================================== */
    
 .ui-dialog {
-	background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/pattern2.png) #222 !important;
+	background:url(Photo/pattern2.png) #222 !important;
 	background-size: 20px 20px !important;
 }
 
@@ -169,7 +169,7 @@ hr.ornamental {
 
 .ui-btn-up-c {
 	border: 1px solid #111;
-	background: #4B000F;
+	background: #143D66;
 	font-weight: bold;
 	color: #fff !important;
 	text-shadow:  0 1px 1px #111;
@@ -181,7 +181,7 @@ hr.ornamental {
 
 .ui-btn-hover-c {
 	border: 1px solid #000;
-	background: #560817;
+	background: #143D66;
 	font-weight: bold;
 	color: #f7eabb !important;
 	text-shadow:  0 1px 1px #000;
@@ -193,7 +193,7 @@ hr.ornamental {
 
 .ui-btn-down-c {
 	border: 1px solid  #000;
-	background: #34070f;
+	background: #143D66;
 	font-weight: bold;
 	color:  #f7eabb;
 	text-shadow:  0 1px 1px #000;
@@ -219,7 +219,7 @@ hr.ornamental {
 
 .ui-btn-active {
 	border: 1px solid #111;
-	background: #34070f;
+	background: #143D66;
 	font-weight: bold;
 	color:#f7eabb;
 	cursor: pointer;
@@ -255,7 +255,7 @@ hr.ornamental {
 
 h2.pageTitle { 
 	text-transform:uppercase; 
-	background: #4B000F; background-size: 5px 5px;
+	background: #143D66; background-size: 5px 5px;
 	border-bottom:1px solid #aaa;
 	color:#f7eabb; 
 	width:100%; 
@@ -316,7 +316,7 @@ h1.ui-title {
 li .ui-btn-text {background: #143D66; background-size: 20px 20px;}
 
 a.ui-link-inherit {
-	background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/arrow.png) right no-repeat; 
+	background:url(Photo/arrow.png) right no-repeat; 
 	background-size: 25px 30px;
 	
 	font-family: 'Kaushan Script', cursive; font-size:18px; 
@@ -330,7 +330,7 @@ a.ui-link-inherit {
 }
 	
 a.ui-link-inherit:hover {
-	background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/arrow.png) right no-repeat #2B5075;
+	background:url(Photo/arrow.png) right no-repeat #2B5075;
 	background-size: 25px 30px;
 	color:#f7eabb !important; 
 }
@@ -497,7 +497,7 @@ li.ui-li-divider {
 
 .ui-btn-hover-b {
 	border: 1px solid #000;
-	background: #560817;
+	background: #143D66;
 	font-weight: bold;
 	color: 	#fff;
 	text-shadow: 0  -1px 1px  #014D68;
@@ -510,7 +510,7 @@ li.ui-li-divider {
 
 .ui-btn-down-b {
 	border: 1px solid #333;
-	background: #34070f;
+	background: #2B5075;
 	font-weight: bold;
 	color: 	#fff;
 	text-shadow: 0 -1px 1px #225377;
@@ -557,57 +557,14 @@ li.ui-li-divider {
 }
 
 
-#sign .ui-icon { background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/sign-sm.png) 50% 50% no-repeat; }
+#sign .ui-icon { background:url(Photo/sign-sm.png) 50% 50% no-repeat; }
 
-#cell .ui-icon { background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/cell-sm.png) 50% 50% no-repeat; }
+#cell .ui-icon { background:url(Photo/cell-sm.png) 50% 50% no-repeat; }
 
-#twitter .ui-icon { background:url(file://localhost/Users/asseebosmani/Documents/Deakin%20Trimester%202%20/SIT313%20-%20Mobile%20Computing/Ass1/New/Photo/twitter-sm.png) 50% 50% no-repeat; }
+#twitter .ui-icon { background:url(Photo/twitter-sm.png) 50% 50% no-repeat; }
 
+#chat2 .ui-icon { background:url(Photo/chat2-sm.png) 50% 50% no-repeat;  background-size: 27px 25px; }
 
-/* =============================================================================
-   Portfolio
-   ========================================================================== */
-
-.gallery { 
-	list-style: none; 
-	padding: 0; 
-	margin: 0; 
-}
-
-.gallery:after { 
-	clear: both; 
-	content: "."; 
-	display: block; 
-	height: 0; 
-	visibility: hidden; 
-}
-
-.gallery li { 
-	float: left; 
-	width: 33.33333333%; 
-}
-
-.gallery li a { 
-	display: block; 
-	margin: 5px; 
-	border: 1px solid #3c3c3c; 
-}
-
-.gallery li img { 
-	display: block; 
-	width: 100%; 
-	height: auto; 
-}
-
-#Gallery1 .ui-content, #Gallery2 .ui-content { 
-	overflow: hidden; 
-}
-
-.gallery img {
-	-webkit-box-shadow: 0px 0px 4px #111;
-	-moz-box-shadow: 0px 0px 4px #111;
-	box-shadow: 0px 0px 4px #111; 
-}
 
 
 /* =============================================================================

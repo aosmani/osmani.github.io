@@ -28,3 +28,5 @@ d)<1/2.75?b*7.5625*a*a+c:a<2/2.75?b*(7.5625*(a-=1.5/2.75)*a+0.75)+c:a<2.5/2.75?b
 		if (window.screen.height==568) { // iPhone 4"
 		document.querySelector("meta[name=viewport]").content="width=320.1";
 		}
+
+
